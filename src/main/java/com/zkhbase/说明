@@ -1,0 +1,13 @@
+https://blog.csdn.net/chengbai121444/article/details/87915654
+Fri May 3111:06:02CST2019,null, java.net.SocketTimeoutException: callTimeout=60000, callDuration=68669: row'SYSTEM:CATALOG,,'on table'hbase:meta'at
+解决方案
+
+vim /etc/hostname
+
+master
+
+vim /etc/hosts
+
+master=192.168.220.129
+
+File C:\Windows\System32\drivers\etc\hosts shouled be modified.	example:	10.0.0.3 master

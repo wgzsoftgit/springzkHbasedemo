@@ -1,0 +1,6 @@
+linux环境
+启动 zookeeper   ./zkServer.sh start
+启动 hadoop   ./sbin/start-dfs.sh
+启动hbase    bin/start-hbase.sh
+           bin/hbase shell
+ java调用api 操作hbase数据库         
